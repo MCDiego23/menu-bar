@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f5f1e8;
+    color: #222;
+    font-family: Arial, sans-serif;
+}
+
+/* =========================
+   ENCABEZADO
+========================= */
+
+.encabezado {
+    text-align: center;
+    padding: 22px 15px 12px;
+}
+
+.logo {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.subtitulo {
+    margin: 5px 0 0;
+    font-size: 15px;
+}
+
+/* =========================
+   MENÚ
+========================= */
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+}
+
+/* =========================
+   BOTONES
+========================= */
+
+.acciones {
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    width: 100%;
+    padding: 15px;
+
+    text-decoration: none;
+    color: #222;
+    background: white;
+
+    border-radius: 10px;
+
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.icono {
+    font-size: 18px;
+}
+
+/* =========================
+   PIE
+========================= */
+
+footer {
+    text-align: center;
+    padding: 10px 15px 30px;
+    font-size: 13px;
+}
